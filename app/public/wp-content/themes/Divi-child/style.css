@@ -1,0 +1,127 @@
+/*
+ Theme Name:     Divi Child
+ Theme URI:      https://www.elegantthemes.com/gallery/divi/
+ Description:    Divi Child Theme
+ Author:         This Is Beyond
+ Author URI:     https://www.elegantthemes.com
+ Template:       Divi
+ Version:        1.0.0
+*/
+
+body {
+  color: #444545;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	color: #ec008c;
+}
+
+*set the default background color of the header section*/
+.pa-header {
+	background: transparent;
+	-webkit-transition: background-color 2s ease-out;
+	-moz-transition: background-color 2s ease-out;
+	-o-transition: background-color 2s ease-out;
+	transition: background-color 2s ease-out;
+}
+
+/*set the background color of the fixed header when scrolling*/
+.pa-fixed-header {
+	background-color: #000;
+	-webkit-transition: background-color 2s ease-out;
+	-moz-transition: background-color 2s ease-out;
+	-o-transition: background-color 2s ease-out;
+	transition: background-color 2s ease-out;
+}
+
+#footer-bottom > div {
+	display: flex;
+    justify-content: center;
+}
+
+#footer-info {
+	display: none;
+}
+
+#nav_menu-2 {
+	width: 100%;
+}
+
+#top-header .et-social-icon a {
+	font-size: 22px;
+	padding-top: 10px;
+}
+
+@media (min-width: 981px) {
+		.et_pb_gutters3 .et_pb_column {
+		margin-right: 3%;
+	}
+	
+	.et_pb_gutters3 .et_pb_column_1_4 {
+		width: 22.5%;
+	}
+}
+
+div#initial-homepage-message > div > div {
+  display: flex;
+  justify-content: center;
+}
+
+a.entry-featured-image-url img {
+	width: 200px;
+}
+
+@media only screen and ( max-width: 1024px ) {
+
+	div#about-mel .et_pb_text {
+		transform: none;
+	}
+	div#about-mel > div > div > div.et_pb_button_module_wrapper.et_pb_button_alignment_right {
+		text-align: center;
+	}
+}
+
+/* Contact Form 7 */
+.wpcf7 {
+	font-size: 16px;
+}
+.wpcf7-form-control-wrap {
+    margin-bottom: 3%;
+}
+
+.wpcf7-form-control-wrap input {
+	border-radius: 5px;
+  overflow: hidden;
+	font-size: 16px;
+	box-shadow: inset 0px -1px 0px 0px rgba(0,0,0,0.18);
+	background: #fff;
+	color: #353740;
+	padding: 14px;
+}
+
+input[type="checkbox"] {
+    width: 14px !important ;
+    -webkit-appearance: checkbox !important;
+}
+span.required-asterisk {
+	color: #ec008c;
+
+}
+.wpcf7 form.sent .wpcf7-response-output {
+	border: none;
+	color: #ec008c;
+	font-size: 26px;
+	background-color: #f9f9f9!;
+}
+
+/* About Mel */
+#logo-row-clients {
+	display: flex;	
+	align-items: center;
+	justify-content: center;
+}
+
+/* mobile menu colour */
+span.mobile_menu_bar:before{
+  color:#ffffff;
+}
